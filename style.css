@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #cccccc;
+}
+.nav{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 1350px;
+    z-index: 3;
+}
+.border{
+    border: 2px;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 9px;
+}
+.border:hover{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+}
+/* .navlogo{
+    height: 50px;
+} */
+.logo{
+    background-image: url(logo3.png);
+    height: 50px;
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.address{
+    display: flex;
+    height: 50px;
+}
+.addrlogo{
+    display: flex;
+    align-items: flex-end;
+    color: aliceblue;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+.addrtext{
+    margin-top: 3px;
+}
+.firsttext{
+    color: #cccccc;
+    font-size: 13px;
+}
+.secondtext{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.search{
+    display: flex;
+    align-items:center;
+    height: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.search select{
+    height: 40px;
+    width: 50px;
+}
+.search input{
+    height: 40px;
+    width: 530px;
+    padding: 5px;
+}
+.searchicon{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(218, 160, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang{
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.lang img{
+     height: 13px;
+    width: 15px; 
+    margin-right: 3px;
+}
+.lang p{
+    margin-right: 2px;
+}
+.signin{
+    display: flex;
+}
+.signin i{
+    color: #ffffff;
+    margin-left: 5px;
+}
+.cart{
+    display: flex;
+}
+.cart i{
+    color: white;
+}
+.cartname{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* Navmenu */
+.navmenu{
+    height: 40px;
+    background-color: #0b132e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1350px;
+    top: 60px;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.prime{
+    display: flex;
+}
+.prime p{
+    margin-right: 5px;
+}
+.menu2{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.main1{
+    height: 548px;
+    background-image: url(Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+}
+.arrow{
+    color: #ffffff;
+    height: 250px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.arrow-right{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 345px;
+}
+.flex{
+    height: 435px;
+    width: 315px;
+    background-color: white;
+    margin: 10px;
+}
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.outbox{
+    width: 125px;
+}
+.box{
+    width: 125px;
+    height: 110px;
+    background-color: black;
+}
+.box img{
+    width: 125px;
+    height: 115px;
+}
+.bigtext{
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.flex a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.link{
+    margin:10px 25px 25px 25px;
+}
+.outbox p{
+    font-size: 11px;
+    margin: 10px;
+}
+.bottom{
+    position: absolute;
+    bottom: -1200px;
+    display: block;
+}
+.btt{
+    background-color: #0b132e;
+    color:wheat;
+    width: 1350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    background-color:#0a1c35;
+    width: 1350px;
+    height: 500px;
+    position: static;
+    display: block;
+}
+.detailsup{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.detailsval p{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 13px;   
+}
+.bold{
+    font-weight: bold;
+}
